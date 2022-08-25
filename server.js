@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 8000;
 
 app.get("/", (req, res) =>
-  res.send({ status: true, message: "Server Successfully Deployed" })
+  res.send({ status: true, message: "Server Successfully Deployed...!" })
 );
 
 app.use("/api/student", StudetRouter);
